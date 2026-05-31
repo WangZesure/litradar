@@ -1,0 +1,26 @@
+deepseek:
+  api_key: "YOUR_DEEPSEEK_API_KEY"
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-v4-flash"
+  max_tokens: 4096
+  temperature: 0.3
+
+arxiv:
+  max_results: 200
+  delay_seconds: 3
+
+semantic_scholar:
+  api_key: ""
+  delay_seconds: 2
+  max_citation_depth: 0
+
+queries:
+  - "diffusion model anomaly detection"
+  - "denoising diffusion anomaly detection"
+  - "score-based generative anomaly detection"
+  - "latent diffusion anomaly detection"
+
+output:
+  dir: "output"
+  min_citations: 5
+  top_k_core_papers: 10
